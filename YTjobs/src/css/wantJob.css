@@ -1,0 +1,96 @@
+.job{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.job__heading{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.job__headingMain{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.selectField{
+    width: 40vw;
+    background-color: #f5f8fc;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.selectField > label{
+    padding: 20px 0;
+    padding-right: 20vw;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.selectField input{
+    margin: 0 10px;
+    cursor: pointer;
+}
+input[type='radio'] {
+    accent-color: #f54e50;
+}
+.btn{
+    margin-top: 1.5rem;
+    margin-left: -10px;
+}
+.btn > button{
+    color: white;
+    padding: 15px 0;
+    border-radius: 10px;
+    border: 1px solid #ff999a;
+    width: 7vw;
+    font-weight: bold;
+    background-color: #f54e50;
+    margin-bottom: 20px;
+}
+
+/* WantJobEmail  */
+
+.wEmail{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.wEmail__back{
+    margin-top:2rem;
+    margin-bottom: 3rem;
+    color: lightgray;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#edit{
+    margin-left: 5vw;
+    font-size: 16px;
+    border-bottom: 1px solid lightgrey;
+    cursor: pointer;
+}
+
+.wEmail__main > label{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.wEmail__main > input {
+    width: 37.2vw;
+    border: none;
+    margin-top: 2rem;
+    border-bottom: 1px solid lightgrey;
+    padding: 5px 0;
+    outline: none;
+}
+.wEmail__btn{
+    margin-top: 2rem;
+    color: white;
+    padding: 15px 0;
+    border-radius: 10px;
+    border: 1px solid #ff999a;
+    width: 7vw;
+    font-weight: bold;
+    margin-bottom: 40px;
+}

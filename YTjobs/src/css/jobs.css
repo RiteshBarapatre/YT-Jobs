@@ -1,0 +1,33 @@
+.jobs__heading{
+    font-size: 30px;    
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+.jobs__filter{
+    margin-top: 2rem;
+    display: flex;
+    margin-bottom: 20px;
+}
+.jobs__categories > select{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f54e50;
+    text-align: center;
+    color: white;
+    outline-color: red;
+    width: 200px;
+    cursor: pointer;
+}
+.jobs__categories > select > option{
+    background-color: aliceblue;
+    color: black;
+    font-size: 18px;
+}
+.row{
+    margin-bottom: 10px;
+}
+.loading{
+    font-size: 30px;
+    color: #f54e50;
+    margin-top: 20px !important;
+}

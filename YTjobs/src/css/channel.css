@@ -1,0 +1,47 @@
+.channel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+}
+.channel__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 36vw;
+}
+.channel__heading{
+    font-size: 30px;
+    font-weight: 1000;
+}
+.channel__info{
+    background-color: aliceblue;
+    width: 35vw;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.channel__name{
+    margin-left: 10px;
+}
+.channel__name > .name{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.buttons{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.btn__proceed{
+    padding: 15px;
+    color: white;
+    border: 1px solid #f54e50;
+    border-radius: 10px;
+    cursor: pointer;
+    height: fit-content;
+    background-color: #f54e50;
+    margin-left: 10px;
+}

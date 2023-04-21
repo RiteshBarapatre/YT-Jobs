@@ -1,0 +1,52 @@
+.login{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    flex-direction: column;
+}
+.login__heading{
+    font-weight: 1000;
+    font-size: 40px;
+}
+.login__email{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.login__email > input{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 25vw;
+    outline: none;
+}
+.login__mainBtn{
+    padding: 15px;
+    color: white;
+    border: 1px solid #f54e50;
+    margin-top: 3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    height: fit-content;
+}
+.login__mainBtn:hover{
+    background-color: rgb(197, 35, 38);
+    transition: 0.5s ease-in-out;
+}
+.signup__main{
+    color: #f54e50;
+}
+
+.signup__main span{
+    border-bottom: 1px solid #f54e50;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.signup__heading{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 3rem;
+    text-align: center;
+}

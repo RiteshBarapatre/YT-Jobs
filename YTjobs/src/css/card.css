@@ -1,0 +1,93 @@
+.card{
+    background-color: aliceblue;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    width: 320px;
+    margin: 20px;
+    margin-left: 0px;
+    padding: 15px;
+    height: fit-content;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover{
+    box-shadow: 5px 5px lightgrey;
+    transform: translateY(-5px);
+    transition: 0.5s ease-in-out;
+}
+.card__info{
+    display: flex;
+    align-items: center;
+}
+.card__logo{
+    border-radius: 10px ;
+    background-color: lightgreen;
+    width: fit-content;
+    padding: 10px;
+}
+.card__logo img{
+    width: 23px;
+}
+.card__title{
+    font-weight: bolder;
+    margin-left: 15px;
+}
+.card__arrow{
+    color: grey;
+    font-size: 30px;
+    margin-left: 6vw;
+}
+
+.card__projectInfo{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.time{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    margin: 2px 0;
+}
+.time > p{
+    margin-left: 10px;
+}
+.card__projectDetails{
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
+.posted{
+    font-size: 10px;
+    color: grey;
+}
+.card__hire{
+    align-items: center;
+    overflow: hidden;
+}
+.card__hireAvatar{
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 60px;
+    height: 70px;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.hire__img > img{
+    height: 51px;
+    overflow: hidden;
+}
+.hire__sub{
+    font-size: 11.9px;
+    background-color: #f54e50;
+    border-radius: 0 0 10px 10px;
+    color: white;
+    overflow: hidden;
+    width: 60px;
+}

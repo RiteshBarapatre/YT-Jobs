@@ -1,0 +1,51 @@
+.postjob{
+    display: flex;
+    justify-content: center;
+}
+.sub__btn{
+    background-color: #f54e50 !important;
+    color: white;
+    padding: 15px 0;
+    border-radius: 10px;
+    border: 1px solid #ff999a;
+    width: 8vw;
+    font-weight: bold;
+    margin: 20px 5px;
+}
+
+.fifth{
+    width: 100%;
+}
+.post__channel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.post__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+.jobTitle{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.job__info{
+    color: grey;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.salary{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.back{
+    text-decoration: underline;
+    cursor: pointer;
+    color: grey;
+}

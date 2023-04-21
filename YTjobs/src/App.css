@@ -1,0 +1,70 @@
+/* Navbar CSS  */
+.mainNavbar{
+    width: 100vw;
+    font-family: "Open Sans";
+    height: fit-content;
+    box-shadow: rgba(8, 8, 43, 0.06) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+}
+.nav-item{
+    padding: 0px 0.9rem;
+    font-size: 16px;
+}
+
+.joinTalent{
+    border-right: 1px solid lightgrey;
+}
+/* Home CSS */
+.home{
+    background-color: #f5f8fc;
+    width: 100vw;
+}
+.home__main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home__image{
+    width : "800px"
+}
+.home__title{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.home__title > div{
+    margin: 20px 0px;
+}
+.home__mainTitle > h1{
+    line-height: 64px;
+}
+.home__description{
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 40vw;
+}
+.join_btn{
+    background-color: #f54e50;
+    width: 11.125rem;
+    height: 3.25rem;
+    font-size: 18px;
+    color: white;
+    border: solid  #f54e50;
+    border-radius: 10px;
+    margin-right: 1vw;
+}
+.post_btn{
+    width: 11.125rem;
+    height: 3.25rem;
+    border:1px solid #f54e50;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #ffe9e9;
+    color: #f54e50;
+}
+.post_btn:hover{
+    background-color: #f54e50;
+    color: white;
+    transition: 0.7s ease-in-out;
+}

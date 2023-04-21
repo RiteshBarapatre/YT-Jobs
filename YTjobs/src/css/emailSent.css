@@ -1,0 +1,21 @@
+.sent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+.sent__heading{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.sent__desc1{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.sent__desc2{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 100px;
+}

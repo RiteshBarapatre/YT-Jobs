@@ -1,0 +1,19 @@
+.footer{
+    background-color: #1e1e1f;
+    width: 100%;
+    padding: 30px 100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.footer p{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.footer li{
+    list-style: none;
+}
+.footer__follow{
+    border-left: 3px solid grey;
+    padding: 20px;
+}

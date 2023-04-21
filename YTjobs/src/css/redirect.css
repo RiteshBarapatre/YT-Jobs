@@ -1,0 +1,13 @@
+.redirect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 52vh;
+}
+.redirect > div{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.redirect > p{
+    margin-bottom: 100px;
+}
