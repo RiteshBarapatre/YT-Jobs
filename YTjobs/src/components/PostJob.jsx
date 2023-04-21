@@ -47,7 +47,7 @@ const PostJob = () => {
     if (cookies.get("email")) {
       const func = async () => {
         const { data } = await axios.post(
-          "http://localhost:8000/api/auth/navchange",
+          "https://yt-jobs-backend-7bhw.onrender.com/api/auth/navchange",
           {
             email: cookies.get("email"),
           }
@@ -138,7 +138,7 @@ const PostJob = () => {
   const postJob = async ()=>{
     setLoading(true)
     try {
-      const {data} = await axios.post("http://localhost:8000/api/auth/jobpost",{
+      const {data} = await axios.post("https://yt-jobs-backend-7bhw.onrender.com/api/auth/jobpost",{
       userTitle : userDetail.userTitle,
       userUrl : userDetail.userUrl,
       userSubs : userDetail.userSubs,

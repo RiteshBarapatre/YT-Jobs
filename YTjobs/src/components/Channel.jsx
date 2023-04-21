@@ -37,7 +37,7 @@ const Channel = ({ channelInfo, hireEmail }) => {
     setLoading(true);
     try {
       const { data } = await axios.post(
-        "http://localhost:8000/api/auth/channelsign",
+        "https://yt-jobs-backend-7bhw.onrender.com/api/auth/channelsign",
         {
           email: hireEmail,
           userUrl: channelInfo?.items[0].snippet.thumbnails.default.url,

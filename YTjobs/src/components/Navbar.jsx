@@ -29,7 +29,7 @@ const Navbar = ({setUser_detail}) => {
     if (cookie) {
       const func = async () => {
         const { data } = await axios.post(
-          "http://localhost:8000/api/auth/navchange",
+          "https://yt-jobs-backend-7bhw.onrender.com/api/auth/navchange",
           {
             email: cookie,
           }

@@ -20,7 +20,7 @@ const sendMailmsg = async (req,res)=>{
 
         subject: "Email Verification",
 
-        html: `<h1 style="text-align : center">YT JOBS</h1><br/><h2 style="text-align : center">You recently try to login in our website "YTjobs.co". Press the below button to continue your verification and explore more !</h2><a href="http://localhost:8000/api/auth/verify/${token}"><button >Verify Now</button></a><p>Thank you ! <br> ${email} </p>`,
+        html: `<h1 style="text-align : center">YT JOBS</h1><br/><h2 style="text-align : center">You recently try to login in our website "YTjobs.co". Press the below button to continue your verification and explore more !</h2><a href="https://yt-jobs-backend-7bhw.onrender.com/api/auth/verify/${token}"><button >Verify Now</button></a><p>Thank you ! <br> ${email} </p>`,
       };
 
       transporter.sendMail(mailConfigurations, function (error, info) {

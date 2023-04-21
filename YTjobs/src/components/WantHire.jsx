@@ -25,7 +25,7 @@ const WantHire = ({setChannelInfo,setHireEmail}) => {
     e.preventDefault()
     setLoading(true)
     try {
-      const {data} = await axios.post("http://localhost:8000/api/auth/channel",{
+      const {data} = await axios.post("https://yt-jobs-backend-7bhw.onrender.com/api/auth/channel",{
       email,channelLink
     },{
       headers : {

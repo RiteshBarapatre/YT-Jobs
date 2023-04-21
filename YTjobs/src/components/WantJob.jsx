@@ -53,7 +53,7 @@ const WantJob = () => {
     e.preventDefault()
     setLoading(true)
     try {
-      const {data} = await axios.post("http://localhost:8000/api/auth/job",{
+      const {data} = await axios.post("https://yt-jobs-backend-7bhw.onrender.com/api/auth/job",{
       speciality : select,
       email
     },{

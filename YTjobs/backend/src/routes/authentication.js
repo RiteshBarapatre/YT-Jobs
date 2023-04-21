@@ -27,7 +27,7 @@ router.get("/verify/:token", (req, res) => {
         "Email verification failed,possibly the link is invalid or expired"
       );
     } else {
-      res.redirect(301, `http://localhost:5173/redirect?email=${decoded.id}`);
+      res.redirect(301, `https://yt-jobs-891e5.web.app//redirect?email=${decoded.id}`);
     }
   });
 });
@@ -90,7 +90,7 @@ router.post("/job", async (req, res) => {
 
         subject: "Email Verification",
 
-        html: `<h1 style="text-align : center">YT JOBS</h1><br/><h2 style="text-align : center">You recently try to login in our website "YTjobs.co". Press the below button to continue your verification and explore more !</h2><a href="http://localhost:8000/api/auth/verify/${token}"><button >Verify Now</button></a><p>Thank you ! <br> ${email} </p>`,
+        html: `<h1 style="text-align : center">YT JOBS</h1><br/><h2 style="text-align : center">You recently try to login in our website "YTjobs.co". Press the below button to continue your verification and explore more !</h2><a href="https://yt-jobs-backend-7bhw.onrender.com/api/auth/verify/${token}"><button >Verify Now</button></a><p>Thank you ! <br> ${email} </p>`,
       };
 
       transporter.sendMail(mailConfigurations, async function (error, info) {
@@ -124,7 +124,7 @@ router.post("/channelsign", async (req, res) => {
 
       subject: "Email Verification",
 
-      html: `<h1 style="text-align : center">YT JOBS</h1><br/><h2 style="text-align : center">You recently try to login in our website "YTjobs.co". Press the below button to continue your verification and explore more !</h2><a href="http://localhost:8000/api/auth/verify/${token}"><button >Verify Now</button></a><p>Thank you ! <br> ${email} </p>`,
+      html: `<h1 style="text-align : center">YT JOBS</h1><br/><h2 style="text-align : center">You recently try to login in our website "YTjobs.co". Press the below button to continue your verification and explore more !</h2><a href="https://yt-jobs-backend-7bhw.onrender.com/api/auth/verify/${token}"><button >Verify Now</button></a><p>Thank you ! <br> ${email} </p>`,
     };
 
     transporter.sendMail(mailConfigurations, async function (error, info) {
