@@ -1,3 +1,4 @@
+const functions = require("firebase-functions");
 const express = require('express')
 const app = express()
 const cors = require('cors')
@@ -20,3 +21,6 @@ app.get("/",(req,res)=>{
 app.listen(port,()=>{
     console.log(`Listening to port ${port}`)
 })
+
+
+exports.api = functions.https.onRequest(app);
