@@ -5,9 +5,9 @@ app.use(cors())
 const port = process.env.PORT || 8000
 const dotenv = require("dotenv")
 dotenv.config({})
-const db = require("../functions/src/db/connect")
+const db = require("./src/db/connect")
 db()
-const auth = require("../functions/src/routes/authentication")
+const auth = require("./src/routes/authentication")
 app.use(express.json())
 
 
