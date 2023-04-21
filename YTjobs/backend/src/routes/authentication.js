@@ -27,7 +27,7 @@ router.get("/verify/:token", (req, res) => {
         "Email verification failed,possibly the link is invalid or expired"
       );
     } else {
-      res.redirect(301, `https://yt-jobs-891e5.web.app//redirect?email=${decoded.id}`);
+      res.redirect(301, `https://incomparable-pavlova-832f54.netlify.app/redirect?email=${decoded.id}`);
     }
   });
 });
