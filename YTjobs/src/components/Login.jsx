@@ -26,7 +26,7 @@ const Login = () => {
     setLoading(true);
     try {
       const { data } = await axios.post(
-        "https://yt-jobs-backend-7bhw.onrender.com/api/auth/login",
+        "http://localhost:8000/api/auth/login",
         {
           email,
         },
